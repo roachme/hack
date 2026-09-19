@@ -15,6 +15,7 @@ RUN apt-get update && \
     iputils-ping \
     curl \
     nmap \
+    iproute2 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
