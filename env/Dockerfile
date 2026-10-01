@@ -16,6 +16,7 @@ RUN apt-get update && \
     curl \
     nmap \
     iproute2 \
+    procps \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
